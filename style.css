@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+#img1 {
+width: 100vw;
+height: 50vh;
+object-fit: cover;
+}
+
+/* Transparence de la navbar */
+#transparence {
+    background-color:RGBA(0, 0, 255, 0);
+}
+
+/* couleur des liens de navbar */
+.nav-link {
+    color: white;
+    font-size:16px;
+}
+
+/* animation hover sur navlink */
+.nav-link:hover {
+    color: green;
+    background-color: black;
+    font-size:50px;
+}
+
+/* ************************************************************************************ */
+.img_card1 {
+width: 100%;
+height:255px;
+object-fit: fill;
+border: 1px solid black;
+}
+
+.card {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    
+}
+.section1 {
+    background-color: burlywood;
+}
+
+.textdanscard {
+padding-left: 0px;
+}
+
+#depasse {
+    margin-top: -120px; 
+}
+
+/* *****************************CARD PROFILE********************************** */
+.heading-footer 
+{ 
+background-image: url(landscape.jpg); 
+background-size: cover; 
+height: 175px; 
+-webkit-box-shadow: none; 
+box-shadow: none; 
+border: 0px; 
+border-radius: 0px; 
+object-fit: cover;
+}   
+ 
+.panel-profile-img 
+{ 
+max-width: 250px; 
+margin-top: -120px; 
+margin-bottom: 5px; 
+border: 3px solid #fff; 
+border-radius: 0%; 
+}
+/* *************************************************************** */
